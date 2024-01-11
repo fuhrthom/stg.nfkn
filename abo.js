@@ -4,7 +4,7 @@ function openPopup() {
   function confirmEmail() {
     var email = document.getElementById('email-input').value;
     if (email) {
-      alert('Erfolgreich abboniert!');
+      alert('Erfolgreich abonniert!');
       document.getElementById('popup').style.display = 'none';
     } else {
       alert('Bitte eine gültige Email eingeben');
