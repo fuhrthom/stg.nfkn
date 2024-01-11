@@ -1,0 +1,150 @@
+#section3-headline-container{
+  margin-bottom: 15vw;
+}
+#section3-headline {
+  font-size: clamp(25px, 8vw, 125px);
+  color: #010205;
+  text-align:  center;
+}
+#section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #010205;
+}
+
+#bildoben {
+  width: 60%;
+  height: auto;
+  border-radius: 20px;
+}
+.bildsectionrotate {
+  width: 75%;
+  object-fit: contain;
+  scale: 1.25;
+  border-radius: 20px;
+}
+
+#bild-top,
+#bild-left {
+  width: 100%;
+  height: auto;
+}
+
+#bild-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -8vw;
+}
+
+#section3-textbild {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 30vh;
+}
+
+.divone {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: aliceblue;
+}
+
+.textfield {
+  width: 50%;
+}
+
+.divtwo {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#bild-left {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: -8vw;
+}
+
+#bildunten {
+  width: 70%;
+  height: auto;
+  border-radius: 20px;
+}
+
+#s3h2{
+  font-size: clamp(30px, 5vw, 50px);
+}
+
+#s3text {
+  font-size: clamp(15px, 2.5vw, 25px);
+}
+
+@media screen and (max-width: 2500px) {
+  .bildsectionrotate {
+  scale: 2;
+  z-index: 1;
+  }
+}
+@media screen and (max-width: 2500px) {
+  .bildsectionrotate {
+  scale: 2;
+  z-index: 1;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .bildsectionrotate {
+  scale: 1.5;
+  z-index: 1;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .bildsectionrotate {
+  scale: 1.25;
+  z-index: 1;
+  }
+}
+
+@media screen and (max-width: 990px) {
+#section3-textbild{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+ 
+}
+.divtwo{
+  width: 70%;
+
+}
+.bildsectionrotate{
+  content: url('/Bilderneu/16-9.jpg');
+  scale: none;
+}
+.textfield {
+  width: 50%;
+  align-self: center;
+}
+#bild-left{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#bildunten{
+  content: url('/Bilderneu/Brett+Messer-9-16.jpg');
+  width: 35%;
+  height: auto;
+}
+}

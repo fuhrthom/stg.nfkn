@@ -1,0 +1,50 @@
+#footer,
+#footer-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: black;
+  align-items: flex-start;
+  color: aliceblue;
+}
+
+
+#bildfooter {
+  max-width: 400px;
+  width: 80%;
+  height: auto;
+  padding: 20px;
+}
+
+#footer-rechts {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-rechts,
+#footer-links {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+
+#social-medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.social-icon a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: aliceblue;
+  padding-top: 20px;
+  margin: 10px;
+  border-radius: 15%;
+}
+
+.social-icon a i {
+  font-size: 2em;
+  color: black;
+}

@@ -1,0 +1,86 @@
+body {
+  font-family: Porsche Next, Arial Narrow, Arial, Heiti SC, SimHei, sans-serif;
+}
+
+
+#logo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.25rem;
+  border-bottom: solid 1px rgba(150, 150, 150, 0.959);
+}
+
+#logo-svg {
+  max-width: 100%;
+  height: auto;
+}
+
+#h1-header-bild,
+#bild1 {
+  width: 100%;
+  height: auto;
+}
+
+#containerbild1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin-bottom: -10vw;
+}
+
+#header-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: -10vw;
+}
+
+#headline-header {
+  color: #010205;
+  font-size: clamp(25px, 8vw, 75px);
+  font-weight: 400;
+  margin-bottom: -7px;
+}
+
+#preis-header,
+#daten-header {
+  color: #010205;
+  font-size: clamp(10px, 8vw, 20px);
+  width: 100%;
+}
+#datenupreis{
+  align-self: center;
+  width: 70%;
+}
+#daten-header {
+  color: #6b6d70;
+}
+
+
+@media screen and (max-width: 760px) {
+  #logo-svg {
+    width: 50px;
+    height: 50px;
+    content: url('/Bilder/porsche-6.svg');
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .social-icon a i {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (max-width: 475px) {
+  #footer {
+    flex-direction: column;
+  }
+
+}
