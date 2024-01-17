@@ -24,6 +24,7 @@
   width: 75%;
   object-fit: contain;
   scale: 1.25;
+  z-index: 1;
   border-radius: 20px;
 }
 
