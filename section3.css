@@ -90,37 +90,6 @@
 #s3text {
   font-size: clamp(15px, 2.5vw, 25px);
 }
-@media screen and (max-width: 3500px) {
-  .bildsectionrotate {
-  scale: 2.5;
-  z-index: 1;
-  }
-}
-
-@media screen and (max-width: 2500px) {
-  .bildsectionrotate {
-  scale: 2;
-  z-index: 1;
-  }
-}
-@media screen and (max-width: 2500px) {
-  .bildsectionrotate {
-  scale: 2;
-  z-index: 1;
-  }
-}
-@media screen and (max-width: 1600px) {
-  .bildsectionrotate {
-  scale: 1.5;
-  z-index: 1;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .bildsectionrotate {
-  scale: 1.25;
-  z-index: 1;
-  }
-}
 
 @media screen and (max-width: 990px) {
 #section3-textbild{
